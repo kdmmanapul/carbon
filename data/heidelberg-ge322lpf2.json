@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "id": "heidelberg-ge322lpf2",
+  "epd": {
+    "sourceFile": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+    "publicPath": "/epds/EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "GE322LPF2",
+    "supplier": "Heidelberg Materials Australia Pty Ltd",
+    "manufacturingLocation": "Brisbane, QLD, Australia",
+    "compressiveStrengthMpa": 32
+  },
+  "declaredUnit": {
+    "description": "1 m3 concrete",
+    "massKg": null
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 145,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+          "page": 20,
+          "evidence": "Product summary table row GE322LPF2 gives A1-A3 145 and full lifecycle 167 kg CO2 eq/m3."
+        }
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "D": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "declared",
+      "value": 167,
+      "unit": "kg CO2e per m3",
+      "source": {
+        "epdFile": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+        "page": 20,
+        "evidence": "Product summary table row GE322LPF2 gives A1-A3 145 and full lifecycle 167 kg CO2 eq/m3."
+      }
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": [
+      "PDF presents product-summary aggregate values; individual downstream module values were not extracted."
+    ]
+  }
+}

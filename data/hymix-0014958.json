@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "id": "hymix-0014958",
+  "epd": {
+    "sourceFile": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+    "publicPath": "/epds/EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "HyLo-50 Normal-Class 25 MPa",
+    "supplier": "Hymix",
+    "manufacturingLocation": "Queensland - Gold Coast, Australia",
+    "compressiveStrengthMpa": 25
+  },
+  "declaredUnit": {
+    "description": "1 m3 concrete",
+    "massKg": null
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 141,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+          "page": 22,
+          "evidence": "Rendered product table row EPD-IES-0014958:001 gives A1-A3 141 and full lifecycle 167 kg CO2 eq/m3."
+        }
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "D": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "declared",
+      "value": 167,
+      "unit": "kg CO2e per m3",
+      "source": {
+        "epdFile": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+        "page": 22,
+        "evidence": "Rendered product table row EPD-IES-0014958:001 gives A1-A3 141 and full lifecycle 167 kg CO2 eq/m3."
+      }
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": [
+      "Filename includes GE252WA06-3, but the EPD registration number visible in the PDF corresponds to HyLo-50 Normal-Class 25 MPa."
+    ]
+  }
+}

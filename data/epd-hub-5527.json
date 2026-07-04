@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.0",
+  "id": "epd-hub-5527",
+  "epd": {
+    "sourceFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+    "publicPath": "/epds/EPD_HUB-5527_2026-06-27_en.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "CTILTS4020100Enhanced",
+    "supplier": "Tandy Concrete",
+    "manufacturingLocation": "Airlie Beach, QLD, Australia",
+    "compressiveStrengthMpa": 40
+  },
+  "declaredUnit": {
+    "description": "1 cubic meter",
+    "massKg": 2388
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "declared",
+        "value": 254,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "A2": {
+        "status": "declared",
+        "value": 26.3,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "A3": {
+        "status": "declared",
+        "value": 4.07,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 284,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.19,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "A5": {
+        "status": "declared",
+        "value": 16.7,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.54,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.9,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.31,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.47,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      },
+      "D": {
+        "status": "declared",
+        "value": -13.4,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+          "page": 8,
+          "evidence": "GWP - total row with modules A1, A2, A3, A1-A3, A4, A5, C1-C4 and D."
+        }
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "not_declared",
+      "value": null,
+      "unit": "kg CO2e per m3",
+      "source": null
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": []
+  }
+}

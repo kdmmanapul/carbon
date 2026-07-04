@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.0",
+  "id": "holcim-qx25mor",
+  "epd": {
+    "sourceFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+    "publicPath": "/epds/epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "Geostone QX25MOR",
+    "supplier": "Holcim Australia",
+    "manufacturingLocation": "Queensland SEQ, Australia",
+    "compressiveStrengthMpa": 25
+  },
+  "declaredUnit": {
+    "description": "1 m3 ready-mix concrete",
+    "massKg": null
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 237,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 237, A4 2.63, A5 15.6, C1 0.522, C2 4.39, C3 10.5, C4 0, D -18.8."
+        }
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.63,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 237, A4 2.63, A5 15.6, C1 0.522, C2 4.39, C3 10.5, C4 0, D -18.8."
+        }
+      },
+      "A5": {
+        "status": "declared",
+        "value": 15.6,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 237, A4 2.63, A5 15.6, C1 0.522, C2 4.39, C3 10.5, C4 0, D -18.8."
+        }
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.522,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 237, A4 2.63, A5 15.6, C1 0.522, C2 4.39, C3 10.5, C4 0, D -18.8."
+        }
+      },
+      "C2": {
+        "status": "declared",
+        "value": 4.39,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 237, A4 2.63, A5 15.6, C1 0.522, C2 4.39, C3 10.5, C4 0, D -18.8."
+        }
+      },
+      "C3": {
+        "status": "declared",
+        "value": 10.5,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 237, A4 2.63, A5 15.6, C1 0.522, C2 4.39, C3 10.5, C4 0, D -18.8."
+        }
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 237, A4 2.63, A5 15.6, C1 0.522, C2 4.39, C3 10.5, C4 0, D -18.8."
+        }
+      },
+      "D": {
+        "status": "declared",
+        "value": -18.8,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 237, A4 2.63, A5 15.6, C1 0.522, C2 4.39, C3 10.5, C4 0, D -18.8."
+        }
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "not_declared",
+      "value": null,
+      "unit": "kg CO2e per m3",
+      "source": null
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": []
+  }
+}

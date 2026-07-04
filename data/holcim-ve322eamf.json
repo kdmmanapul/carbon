@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.0",
+  "id": "holcim-ve322eamf",
+  "epd": {
+    "sourceFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+    "publicPath": "/epds/epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "Ecopact VE322EAMF",
+    "supplier": "Holcim Australia",
+    "manufacturingLocation": "Melbourne Metro, VIC, Australia",
+    "compressiveStrengthMpa": 32
+  },
+  "declaredUnit": {
+    "description": "1 m3 ready-mix concrete",
+    "massKg": null
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 105,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+          "page": 15,
+          "evidence": "GWP-Total row: A1-A3 105, A4 2.05, A5 8.81, C1 0.532, C2 3.99, C3 7.61, C4 1.28, D -15.7."
+        }
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.05,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+          "page": 15,
+          "evidence": "GWP-Total row: A1-A3 105, A4 2.05, A5 8.81, C1 0.532, C2 3.99, C3 7.61, C4 1.28, D -15.7."
+        }
+      },
+      "A5": {
+        "status": "declared",
+        "value": 8.81,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+          "page": 15,
+          "evidence": "GWP-Total row: A1-A3 105, A4 2.05, A5 8.81, C1 0.532, C2 3.99, C3 7.61, C4 1.28, D -15.7."
+        }
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.532,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+          "page": 15,
+          "evidence": "GWP-Total row: A1-A3 105, A4 2.05, A5 8.81, C1 0.532, C2 3.99, C3 7.61, C4 1.28, D -15.7."
+        }
+      },
+      "C2": {
+        "status": "declared",
+        "value": 3.99,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+          "page": 15,
+          "evidence": "GWP-Total row: A1-A3 105, A4 2.05, A5 8.81, C1 0.532, C2 3.99, C3 7.61, C4 1.28, D -15.7."
+        }
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.61,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+          "page": 15,
+          "evidence": "GWP-Total row: A1-A3 105, A4 2.05, A5 8.81, C1 0.532, C2 3.99, C3 7.61, C4 1.28, D -15.7."
+        }
+      },
+      "C4": {
+        "status": "declared",
+        "value": 1.28,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+          "page": 15,
+          "evidence": "GWP-Total row: A1-A3 105, A4 2.05, A5 8.81, C1 0.532, C2 3.99, C3 7.61, C4 1.28, D -15.7."
+        }
+      },
+      "D": {
+        "status": "declared",
+        "value": -15.7,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+          "page": 15,
+          "evidence": "GWP-Total row: A1-A3 105, A4 2.05, A5 8.81, C1 0.532, C2 3.99, C3 7.61, C4 1.28, D -15.7."
+        }
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "not_declared",
+      "value": null,
+      "unit": "kg CO2e per m3",
+      "source": null
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": []
+  }
+}

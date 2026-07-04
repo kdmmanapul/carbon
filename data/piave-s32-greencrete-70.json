@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.0",
+  "id": "piave-s32-greencrete-70",
+  "epd": {
+    "sourceFile": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+    "publicPath": "/epds/epd-ies-0023043-s32mpa-greencrete-70.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "Premix Concrete - S32MPa GreenCrete 70",
+    "supplier": "Piave Premix Concrete Pty Ltd",
+    "manufacturingLocation": "Victoria, Australia",
+    "compressiveStrengthMpa": 32
+  },
+  "declaredUnit": {
+    "description": "1 m3 premix concrete",
+    "massKg": 2373
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 134,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+          "page": 11,
+          "evidence": "GWP - total row: A1-A3 1.34E+02, C1 5.67E+00, C2 2.16E+01, C3 1.25E+01, C4 2.29E+00, D -1.61E+00."
+        }
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 5.67,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+          "page": 11,
+          "evidence": "GWP - total row: A1-A3 1.34E+02, C1 5.67E+00, C2 2.16E+01, C3 1.25E+01, C4 2.29E+00, D -1.61E+00."
+        }
+      },
+      "C2": {
+        "status": "declared",
+        "value": 21.6,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+          "page": 11,
+          "evidence": "GWP - total row: A1-A3 1.34E+02, C1 5.67E+00, C2 2.16E+01, C3 1.25E+01, C4 2.29E+00, D -1.61E+00."
+        }
+      },
+      "C3": {
+        "status": "declared",
+        "value": 12.5,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+          "page": 11,
+          "evidence": "GWP - total row: A1-A3 1.34E+02, C1 5.67E+00, C2 2.16E+01, C3 1.25E+01, C4 2.29E+00, D -1.61E+00."
+        }
+      },
+      "C4": {
+        "status": "declared",
+        "value": 2.29,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+          "page": 11,
+          "evidence": "GWP - total row: A1-A3 1.34E+02, C1 5.67E+00, C2 2.16E+01, C3 1.25E+01, C4 2.29E+00, D -1.61E+00."
+        }
+      },
+      "D": {
+        "status": "declared",
+        "value": -1.61,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+          "page": 11,
+          "evidence": "GWP - total row: A1-A3 1.34E+02, C1 5.67E+00, C2 2.16E+01, C3 1.25E+01, C4 2.29E+00, D -1.61E+00."
+        }
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "not_declared",
+      "value": null,
+      "unit": "kg CO2e per m3",
+      "source": null
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": []
+  }
+}

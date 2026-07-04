@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.0",
+  "id": "aurora-ar2520",
+  "epd": {
+    "sourceFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+    "publicPath": "/epds/epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "AR2520",
+    "supplier": "Aurora Construction Materials / Epping Pty Ltd",
+    "manufacturingLocation": "Rockbank, VIC, Australia",
+    "compressiveStrengthMpa": 25
+  },
+  "declaredUnit": {
+    "description": "1 cubic metre premixed concrete",
+    "massKg": 2270
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 140,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+          "page": 17,
+          "evidence": "GWP-total row: A1-A3 1.40E+02, C1 1.20E+01, C2 1.45E+01, C3 8.03E+00, C4 8.61E-01, D -9.79E+00."
+        }
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 12.0,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+          "page": 17,
+          "evidence": "GWP-total row: A1-A3 1.40E+02, C1 1.20E+01, C2 1.45E+01, C3 8.03E+00, C4 8.61E-01, D -9.79E+00."
+        }
+      },
+      "C2": {
+        "status": "declared",
+        "value": 14.5,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+          "page": 17,
+          "evidence": "GWP-total row: A1-A3 1.40E+02, C1 1.20E+01, C2 1.45E+01, C3 8.03E+00, C4 8.61E-01, D -9.79E+00."
+        }
+      },
+      "C3": {
+        "status": "declared",
+        "value": 8.03,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+          "page": 17,
+          "evidence": "GWP-total row: A1-A3 1.40E+02, C1 1.20E+01, C2 1.45E+01, C3 8.03E+00, C4 8.61E-01, D -9.79E+00."
+        }
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0.861,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+          "page": 17,
+          "evidence": "GWP-total row: A1-A3 1.40E+02, C1 1.20E+01, C2 1.45E+01, C3 8.03E+00, C4 8.61E-01, D -9.79E+00."
+        }
+      },
+      "D": {
+        "status": "declared",
+        "value": -9.79,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+          "page": 17,
+          "evidence": "GWP-total row: A1-A3 1.40E+02, C1 1.20E+01, C2 1.45E+01, C3 8.03E+00, C4 8.61E-01, D -9.79E+00."
+        }
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "not_declared",
+      "value": null,
+      "unit": "kg CO2e per m3",
+      "source": null
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": []
+  }
+}

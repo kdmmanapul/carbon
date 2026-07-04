@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.0",
+  "id": "hallett-representative-n3220p-s50",
+  "epd": {
+    "sourceFile": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+    "publicPath": "/epds/epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "N3220P S50 representative",
+    "supplier": "Hallett Group Pty Ltd",
+    "manufacturingLocation": "Australia",
+    "compressiveStrengthMpa": 32
+  },
+  "declaredUnit": {
+    "description": "1 m3 ready mix concrete",
+    "massKg": 2332
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 196,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+          "page": 36,
+          "evidence": "Catalogue table includes N3220P S50 A1-A3 196; page 36 representative end-of-life table lists C1 14.8, C2 5.96, C3 5.02, C4 8.45, D -11.6."
+        }
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 14.8,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+          "page": 36,
+          "evidence": "Catalogue table includes N3220P S50 A1-A3 196; page 36 representative end-of-life table lists C1 14.8, C2 5.96, C3 5.02, C4 8.45, D -11.6."
+        }
+      },
+      "C2": {
+        "status": "declared",
+        "value": 5.96,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+          "page": 36,
+          "evidence": "Catalogue table includes N3220P S50 A1-A3 196; page 36 representative end-of-life table lists C1 14.8, C2 5.96, C3 5.02, C4 8.45, D -11.6."
+        }
+      },
+      "C3": {
+        "status": "declared",
+        "value": 5.02,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+          "page": 36,
+          "evidence": "Catalogue table includes N3220P S50 A1-A3 196; page 36 representative end-of-life table lists C1 14.8, C2 5.96, C3 5.02, C4 8.45, D -11.6."
+        }
+      },
+      "C4": {
+        "status": "declared",
+        "value": 8.45,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+          "page": 36,
+          "evidence": "Catalogue table includes N3220P S50 A1-A3 196; page 36 representative end-of-life table lists C1 14.8, C2 5.96, C3 5.02, C4 8.45, D -11.6."
+        }
+      },
+      "D": {
+        "status": "declared",
+        "value": -11.6,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2023-08-epd-ies-0009353-003-hallett-ready-mix-concrete-2026-05-04-pdf.pdf",
+          "page": 36,
+          "evidence": "Catalogue table includes N3220P S50 A1-A3 196; page 36 representative end-of-life table lists C1 14.8, C2 5.96, C3 5.02, C4 8.45, D -11.6."
+        }
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "not_declared",
+      "value": null,
+      "unit": "kg CO2e per m3",
+      "source": null
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": [
+      "This EPD covers many mixes. JSON captures the representative N3220P S50 row used for the end-of-life scenario, not the full catalogue."
+    ]
+  }
+}

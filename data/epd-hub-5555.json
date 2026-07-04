@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0",
+  "id": "epd-hub-5555",
+  "epd": {
+    "sourceFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+    "publicPath": "/epds/EPD_HUB-5555_2026-06-27_en.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "40MPa 20mm Enviro 50% SCM 100SL Conc",
+    "supplier": "Boral Limited",
+    "manufacturingLocation": "North Ryde, NSW, Australia",
+    "compressiveStrengthMpa": 40
+  },
+  "declaredUnit": {
+    "description": "1 cubic metre",
+    "massKg": 2338
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "declared",
+        "value": 209,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+          "page": 13,
+          "evidence": "GWP - total rows for A1/A2/A3/A1-A3 and C1-C4/D."
+        }
+      },
+      "A2": {
+        "status": "declared",
+        "value": 6.12,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+          "page": 13,
+          "evidence": "GWP - total rows for A1/A2/A3/A1-A3 and C1-C4/D."
+        }
+      },
+      "A3": {
+        "status": "declared",
+        "value": 5.6,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+          "page": 13,
+          "evidence": "GWP - total rows for A1/A2/A3/A1-A3 and C1-C4/D."
+        }
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 220,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+          "page": 13,
+          "evidence": "GWP - total rows for A1/A2/A3/A1-A3 and C1-C4/D."
+        }
+      },
+      "A4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 4.45,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+          "page": 13,
+          "evidence": "GWP - total rows for A1/A2/A3/A1-A3 and C1-C4/D."
+        }
+      },
+      "C2": {
+        "status": "declared",
+        "value": 12.6,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+          "page": 13,
+          "evidence": "GWP - total rows for A1/A2/A3/A1-A3 and C1-C4/D."
+        }
+      },
+      "C3": {
+        "status": "declared",
+        "value": 7.16,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+          "page": 13,
+          "evidence": "GWP - total rows for A1/A2/A3/A1-A3 and C1-C4/D."
+        }
+      },
+      "C4": {
+        "status": "declared",
+        "value": 4.38,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+          "page": 13,
+          "evidence": "GWP - total rows for A1/A2/A3/A1-A3 and C1-C4/D."
+        }
+      },
+      "D": {
+        "status": "declared",
+        "value": -12.8,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+          "page": 13,
+          "evidence": "GWP - total rows for A1/A2/A3/A1-A3 and C1-C4/D."
+        }
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "not_declared",
+      "value": null,
+      "unit": "kg CO2e per m3",
+      "source": null
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": []
+  }
+}

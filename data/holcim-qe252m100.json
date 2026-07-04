@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.0",
+  "id": "holcim-qe252m100",
+  "epd": {
+    "sourceFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+    "publicPath": "/epds/epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "Ecopact QE252M100",
+    "supplier": "Holcim Australia",
+    "manufacturingLocation": "Brisbane, QLD, Australia",
+    "compressiveStrengthMpa": 25
+  },
+  "declaredUnit": {
+    "description": "1 m3 ready-mix concrete",
+    "massKg": null
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 146,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 146, A4 2.58, A5 12.9, C1 0.522, C2 4.31, C3 10.4, C4 0, D -18.5."
+        }
+      },
+      "A4": {
+        "status": "declared",
+        "value": 2.58,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 146, A4 2.58, A5 12.9, C1 0.522, C2 4.31, C3 10.4, C4 0, D -18.5."
+        }
+      },
+      "A5": {
+        "status": "declared",
+        "value": 12.9,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 146, A4 2.58, A5 12.9, C1 0.522, C2 4.31, C3 10.4, C4 0, D -18.5."
+        }
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "declared",
+        "value": 0.522,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 146, A4 2.58, A5 12.9, C1 0.522, C2 4.31, C3 10.4, C4 0, D -18.5."
+        }
+      },
+      "C2": {
+        "status": "declared",
+        "value": 4.31,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 146, A4 2.58, A5 12.9, C1 0.522, C2 4.31, C3 10.4, C4 0, D -18.5."
+        }
+      },
+      "C3": {
+        "status": "declared",
+        "value": 10.4,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 146, A4 2.58, A5 12.9, C1 0.522, C2 4.31, C3 10.4, C4 0, D -18.5."
+        }
+      },
+      "C4": {
+        "status": "declared",
+        "value": 0,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 146, A4 2.58, A5 12.9, C1 0.522, C2 4.31, C3 10.4, C4 0, D -18.5."
+        }
+      },
+      "D": {
+        "status": "declared",
+        "value": -18.5,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+          "page": 16,
+          "evidence": "GWP-Total row: A1-A3 146, A4 2.58, A5 12.9, C1 0.522, C2 4.31, C3 10.4, C4 0, D -18.5."
+        }
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "not_declared",
+      "value": null,
+      "unit": "kg CO2e per m3",
+      "source": null
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": []
+  }
+}

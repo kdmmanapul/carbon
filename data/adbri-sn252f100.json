@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "id": "adbri-sn252f100",
+  "epd": {
+    "sourceFile": "epd-ies-0021165-sn252f100.pdf",
+    "publicPath": "/epds/epd-ies-0021165-sn252f100.pdf",
+    "programOperator": "See source EPD"
+  },
+  "product": {
+    "name": "SN252F100 Futurecrete Normal Class GL Slag 25 MPa",
+    "supplier": "Adbri Limited",
+    "manufacturingLocation": "South Australia",
+    "compressiveStrengthMpa": 25
+  },
+  "declaredUnit": {
+    "description": "1 cubic metre",
+    "massKg": null
+  },
+  "gwp": {
+    "indicator": "GWP-total",
+    "unit": "kg CO2e per m3",
+    "stages": {
+      "A1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "A1-A3": {
+        "status": "declared",
+        "value": 143.83,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0021165-sn252f100.pdf",
+          "page": 32,
+          "evidence": "Rendered page 32 A1-A3 GWP-total 143.83 and text page 19/Table 7 A4 GWP 9.64 for South Australia concrete truck."
+        }
+      },
+      "A4": {
+        "status": "declared",
+        "value": 9.64,
+        "unit": "kg CO2e per m3",
+        "source": {
+          "epdFile": "epd-ies-0021165-sn252f100.pdf",
+          "page": 32,
+          "evidence": "Rendered page 32 A1-A3 GWP-total 143.83 and text page 19/Table 7 A4 GWP 9.64 for South Australia concrete truck."
+        }
+      },
+      "A5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B5": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B6": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "B7": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C1": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C2": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C3": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "C4": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      },
+      "D": {
+        "status": "not_declared",
+        "value": null,
+        "unit": "kg CO2e per m3",
+        "source": null
+      }
+    },
+    "fullLifecycleTotal": {
+      "status": "not_declared",
+      "value": null,
+      "unit": "kg CO2e per m3",
+      "source": null
+    }
+  },
+  "dataQuality": {
+    "extractionMethod": "pdfplumber text/table extraction with visual checks for rotated or chart-like pages",
+    "notes": [
+      "The product-stage table is rotated in the PDF; the value was visually checked from the rendered page."
+    ]
+  }
+}
