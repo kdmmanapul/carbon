@@ -1,11 +1,25 @@
 # Extraction reasoning
 
-I treated the PDFs as evidence first and data second. The main risk in this task is not missing a nice UI feature; it is turning an absent or incomparable carbon number into a confident procurement signal. My schema therefore stores each GWP-total figure by life-cycle module, with a value, status, unit, page, source filename, and short evidence string. `not_declared` is explicit and is never converted to zero.
+## Overall strategy
 
-The extraction pipeline was deliberately thin: download the public EPDs, run `pdfplumber` for text and tables, search for declared unit/product/location/strength/GWP rows, then visually render pages where extraction looked suspicious. This caught two important cases: catalogue-style EPDs with many products, and rotated/chart-like tables where text extraction produced nonsense. For those I kept aggregate figures only, or captured a representative row with a note rather than pretending it was a normal single-product EPD.
+I started from the rule that every carbon number must be traceable. For this domain, a neat-looking comparison is dangerous if it turns "not declared" into zero or mixes lifecycle coverage without warning. So I treated each PDF as evidence first, and the JSON as a structured audit trail second.
 
-I used deterministic scripts plus hand-checked overrides instead of asking an LLM to directly "read" the PDFs into JSON. The documents use a few recurring families: EPD Hub tables often expose A1, A2, A3, A1-A3, A4/A5, C1-C4 and D cleanly; EPD Australasia/Holcim tables usually expose A1-A3 plus downstream modules; GCCA-style slide PDFs often expose product-summary A1-A3 and sometimes full-lifecycle totals without reliable module detail. The JSON reflects those differences instead of forcing them into one false shape.
+The schema is intentionally close to the app's needs: product name, supplier, manufacturing location, compressive strength, declared unit, and `GWP-total` values by lifecycle module. Each stage has a `status`, `value`, `unit`, and `source` object with EPD filename, page, and evidence text. That makes missing data explicit and lets the UI show provenance without needing to rediscover it.
 
-Accuracy checks were mostly consistency checks: A1 + A2 + A3 should roughly match A1-A3 where separately declared; module headers were checked against table order; values from scientific notation were normalized to decimal numbers; and questionable tables were rendered with Poppler for visual verification. The Adbri A1-A3 value and Hymix catalogue row are examples where visual review changed how I represented the data.
+## Model and architecture
 
-What could still go wrong: product catalogues may contain more relevant variants than the representative row I extracted, and some GCCA-style PDFs likely contain detailed stage data that would require a more robust table/vision extraction pass. In a production system I would preserve the raw table extraction, run validation rules per EPD family, require human review for low-confidence rows, and store provenance down to bounding boxes. For this assessment, I optimized for honest comparability over completeness.
+I used a thin extraction pipeline rather than a single AI "read these PDFs" step. The first pass used deterministic tools: `pypdf`/`pdfplumber` for text and table extraction, simple scripts to inventory the 20 PDFs, and generated scratch text/table files for review. I then used rendered pages for cases where the extracted text looked wrong, especially rotated tables, catalogue-style EPDs, and chart-like layouts.
+
+I used AI as a reviewer and accelerator, not as the authority. It was useful for thinking through schema design, spotting likely table-family differences, UI iteration, and asking "what could mislead a builder here?" I avoided making AI the direct source of carbon values because the failure mode is too costly: a plausible unsupported number would look legitimate in the app.
+
+## Accuracy
+
+My checks were deliberately boring. The validation script asserts that all 20 JSON files exist, every declared carbon value has source file/page/evidence, linked PDFs exist, and `not_declared` values do not carry fake zeroes. Where A1, A2, A3, and A1-A3 were all present, I checked that the split stages roughly matched the aggregate. I also normalized scientific notation and visually checked suspicious pages before carrying values into JSON.
+
+The most important accuracy decision was not to force all EPDs into the same shape. Some EPD Hub files expose clean module tables. Some Australasia/Holcim documents report A1-A3 plus selected downstream modules. Some GCCA-style documents give product-stage or total figures without reliable module detail. The JSON preserves those differences instead of making the app pretend the products are fully comparable.
+
+## Research and process
+
+I questioned three things while extracting: what the declared unit was, whether the value was specifically `GWP-total`, and whether a lifecycle stage was actually declared or just absent from the table. Two examples changed my approach. The Adbri table needed visual review because text extraction around the rotated table was unreliable. The Hymix catalogue-style document could not be treated like a single-product EPD, so I kept notes rather than hiding that limitation.
+
+What could still go wrong: catalogue EPDs may contain additional variants that deserve separate records, and some PDFs may have detailed module data that would need a stronger vision/table extraction pass. In production I would store raw table artifacts, bounding boxes, confidence scores, EPD-family-specific parsers, and a human review queue. For this assessment I optimized for honest comparability over false completeness.

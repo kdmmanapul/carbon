@@ -28,15 +28,6 @@ Then open `http://localhost:3000`.
 - The UI sums only declared comparison stages and labels that limitation.
 - Source EPD links remain visible from the product card and stage cells.
 
-## Deployment
-
-Deploy the repo to Vercel as a standard Next.js project. After deployment, verify:
-
-- The home page loads.
-- Filters work for strength and manufacturing location.
-- Product cards link to source EPD PDFs.
-- Data warnings remain visible when stages are missing.
-
 ## Follow-Up Improvements
 
 - Store bounding boxes for each extracted value.
